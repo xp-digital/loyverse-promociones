@@ -1,0 +1,17 @@
+{
+    "activo": true,
+    "inicio": "2026-08-01",
+    "fin": "2026-08-31",
+    "promociones": [
+        {
+            "nombre": "Agosto prueba",
+            "skuNormal": "10010",
+            "skuPromocion": "10021",
+            "dias": [
+                "lunes",
+                "miercoles",
+                "viernes"
+            ]
+        }
+    ]
+}
