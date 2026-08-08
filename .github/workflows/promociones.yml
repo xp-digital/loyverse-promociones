@@ -1,0 +1,28 @@
+name: Automatizador de promociones Loyverse
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 14 * * *"
+
+jobs:
+
+  ejecutar-promociones:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Descargar proyecto
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Ejecutar automatizador
+        env:
+          LOYVERSE_TOKEN: ${{ secrets.LOYVERSE_TOKEN }}
+        run: node index.js
