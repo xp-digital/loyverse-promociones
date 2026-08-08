@@ -26,3 +26,5 @@ jobs:
         env:
           LOYVERSE_TOKEN: ${{ secrets.LOYVERSE_TOKEN }}
         run: node index.js
+
+# Workflow de automatización de promociones Loyverse
