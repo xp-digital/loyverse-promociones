@@ -4,9 +4,9 @@
     "fin": "2026-08-31",
     "promociones": [
         {
-            "nombre": "Agosto prueba",
-            "skuNormal": "10010",
-            "skuPromocion": "10021",
+            "nombre": "Promocion Agosto 2026",
+            "skuNormal": "10003",
+            "skuPromocion": "10000",
             "dias": [
                 "lunes",
                 "miercoles",
